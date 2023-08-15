@@ -1,3 +1,4 @@
+# See https://git.yoctoproject.org/poky/tree/meta/files/common-licenses
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda2f7b4f302"
 
@@ -5,9 +6,8 @@ SRC_URI = "git://github.com/cu-ecen-aeld/assignments-3-and-later-d4d0o.git;proto
            file://S99aesdchar \
            "
 
-# Modify these as desired
 PV = "1.0+git${SRCPV}"
-SRCREV = "91b0bc0d5806b1ce0620979114da8e1474f2727d"
+SRCREV = "bed9855a3c6d5dbb5b4a5839869e4d4bb7abc76c"
 
 S = "${WORKDIR}/git/aesd-char-driver"
 
